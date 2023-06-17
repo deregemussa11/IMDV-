@@ -1,0 +1,8 @@
+"0",""
+"0","as.character(movie_revew_clean[[5]])"
+"1","[1]"
+"1"," "" anyone else noticed version basically scenescene remake version scenes taken makes think less film showing definite want creativity fairness tend biased favor katharine hepburn version film seems like cinematic plagiarism version nice sweet though little awkward presentation transition times version took script music even fair amount scene blocking earlier version understand point making film method remaking basically redo george cukors film everything except people working """
+"1","
+"
+"0","# Tokenize as document term matrix"
+"0","movie_revew_dtm <- DocumentTermMatrix(movie_revew_clean)"

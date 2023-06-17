@@ -1,0 +1,6 @@
+"0",""
+"0","review_df |> "
+"0","  group_by(word) |> "
+"0","  summarise(count = n()) |> "
+"0","  arrange(desc(count)) |> "
+"0","  head()"

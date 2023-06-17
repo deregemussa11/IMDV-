@@ -1,0 +1,6 @@
+"0",""
+"0","review_df <- movie_reviews |> "
+"0"," # select(review) |> "
+"0","  unnest_tokens(word, review)"
+"0",""
+"0","head(review_df)"

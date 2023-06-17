@@ -1,0 +1,6 @@
+"0","# clean the text "
+"0","movie_revew_clean <- tm_map(review_corpus, content_transformer(tolower))"
+"0","movie_revew_clean <- tm_map(movie_revew_clean, removeNumbers)"
+"0","movie_revew_clean <- tm_map(movie_revew_clean, removeWords, stopwords())"
+"0","movie_revew_clean <- tm_map(movie_revew_clean, removePunctuation)"
+"0","movie_revew_clean <- tm_map(movie_revew_clean, stripWhitespace)"

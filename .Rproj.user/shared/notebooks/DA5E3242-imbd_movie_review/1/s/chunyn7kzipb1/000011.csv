@@ -1,0 +1,8 @@
+"0",""
+"0","review_df <- review_df |> "
+"0","  mutate(stem = wordStem(word))"
+"0",""
+"0","review_df <- review_df |> "
+"0","  anti_join(stop_words[stop_words$lexicon =='snowball',],by = ""word"")"
+"0",""
+"0",""

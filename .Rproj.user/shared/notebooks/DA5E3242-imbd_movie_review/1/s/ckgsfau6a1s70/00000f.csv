@@ -1,0 +1,8 @@
+"0","library(tm) # topic modeling"
+"0","library(e1071) # build model"
+"0","library(gmodels) # cross tabulation"
+"0","library(dplyr) # data manipulation"
+"0","library(readr) # read data"
+"0","library(tidytext)"
+"0","library(SnowballC)"
+"0","library(ggplot2)"
